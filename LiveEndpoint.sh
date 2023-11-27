@@ -30,7 +30,7 @@ archAffix(){
 
 endpointyx(){    
     # 下载优选工具软件，感谢某匿名网友的分享的优选工具
-    wget https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-linux-$(archAffix) -O warp
+    wget -nc https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-linux-$(archAffix) -O warp
     
     # 取消 Linux 自带的线程限制，以便生成优选 Endpoint IP
     ulimit -n 102400
@@ -40,13 +40,13 @@ endpointyx(){
     
     # 显示前十个优选 Endpoint IP 及使用方法
     green "Current optimal Endpoint IP The results are as follows，and saved to result.csv："
-    cat result.csv | awk -F, '$3!="timeout ms" {print} ' | sort -t, -nk2 -nk3 | uniq | head -11 | awk -F, '{print "端点 "$1" 丢包率 "$2" 平均延迟 "$3}'
+    cat result.csv | awk -F, '$3!="timeout ms" {print} ' | sort -t, -nk2 -nk3 | uniq | head -11 | awk -F, '{print "Endpoint "$1" Loss "$2" Delay "$3}'
     echo ""
     yellow "How to use it："
     yellow "1. Replace the default Endpoint IP of the WireGuard node: engage.cloudflareclient.com:2408 with the optimal Endpoint IP of the local network"
 
     # 删除 WARP Endpoint IP 优选工具及其附属文件
-    rm -f warp ip.txt
+    rm -f result.csv ip.txt
 }
 
 endpoint4(){
@@ -194,11 +194,11 @@ endpoint6(){
 menu(){
     clear
     echo "##############################################################"
-    echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                    #"
+    echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                      #"
     echo -e "# ${GREEN}Author${PLAIN}: AshiwYT                                          #"
     echo -e "# ${GREEN}GitHub${PLAIN}: https://github.com/AshiwYT                       #"
     echo -e "# ${GREEN}Telegram${PLAIN}: https://t.me/Ashiweshoonam                     #"
-    echo -e "# ${GREEN}YouTube channel${PLAIN}: https://www.youtube.com/@DreamLiteX    #"
+    echo -e "# ${GREEN}YouTube channel${PLAIN}: https://www.youtube.com/@DreamLiteX     #"
     echo "#############################################################"
     echo ""
     echo -e " ${GREEN}1.${PLAIN} WARP IPv4 Endpoint IP preferred ${YELLOW}(Default)${PLAIN}"
