@@ -76,10 +76,14 @@ pkg update && pkg install wget
 
 
 
-If you receive an error, you can use the following code to fix it and do everything from the beginning
+## If you receive an error, you can use the following code to fix it and do everything from the beginning
 
 
-اگر خطا دریافت کردید میتوانید از کد زیر برای رفع استفاده کنید و از اول همه چیز را انجام بدید
+ ## اگر خطا دریافت کردید میتوانید از کد زیر برای رفع استفاده کنید و از اول همه چیز را انجام بدید 
+
+This code is used because the desired file is not installed or there is some error of not display the top 10 best WARP Endpoint IPs
+
+ این کد به این دلیل استفاده می شود که فایل مورد نظر نصب نشده است یا خطای عدم نمایش 10 IP برتر WARP Endpoint وجود دارد.
 
 ```shell
 rm -f ./warp && bash LiveEndpoint.sh
