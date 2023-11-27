@@ -82,5 +82,5 @@ If you receive an error, you can use the following code to fix it and do everyth
 اگر خطا دریافت کردید میتوانید از کد زیر برای رفع استفاده کنید و از اول همه چیز را انجام بدید
 
 ```shell
-rm -f ./warp
+rm -f ./warp && bash LiveEndpoint.sh
 ```
