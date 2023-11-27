@@ -197,7 +197,7 @@ endpoint6(){
 menu(){
     clear
     echo "##############################################################"
-    echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                      #"
+    echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                    #"
     echo -e "# ${GREEN}Author${PLAIN}: AshiwYT                                          #"
     echo -e "# ${YELLOW}GitHub${PLAIN}: https://github.com/DreamXlite                    #"
     echo -e "# ${BLUE}Telegram${PLAIN}: https://t.me/Ashiweshoonam                  #"
