@@ -200,7 +200,7 @@ menu(){
     echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                      #"
     echo -e "# ${GREEN}Author${PLAIN}: AshiwYT                                          #"
     echo -e "# ${YELLOW}GitHub${PLAIN}: https://github.com/DreamXlite                    #"
-    echo -e "# ${BLUE}Telegram${PLAIN}: https://t.me/Ashiweshoonam                     #"
+    echo -e "# ${BLUE}Telegram${PLAIN}: https://t.me/Ashiweshoonam                  #"
     echo -e "# ${PURPLE}YouTube channel${PLAIN}: https://www.youtube.com/@DreamLiteX     #"
     echo "#############################################################"
     echo ""
