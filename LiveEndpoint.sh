@@ -196,13 +196,13 @@ endpoint6(){
 
 menu(){
     clear
-    echo "##############################################################"
-    echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                 #"
-    echo -e "# ${GREEN}Author${PLAIN}: AshiwYT                                       #"
-    echo -e "# ${YELLOW}GitHub${PLAIN}: https://github.com/DreamXlite                 #"
-    echo -e "# ${BLUE}Telegram${PLAIN}: https://t.me/Ashiweshoonam                  #"
-    echo -e "# ${PURPLE}YouTube channel${PLAIN}: https://www.youtube.com/@DreamLiteX  #"
-    echo "#############################################################"
+    echo "############################################################"
+    echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                    #"
+    echo -e "# ${GREEN}Author${PLAIN}: AshiwYT                                          #"
+    echo -e "# ${YELLOW}GitHub${PLAIN}: https://github.com/DreamXlite                    #"
+    echo -e "# ${BLUE}Telegram${PLAIN}: https://t.me/Ashiweshoonam                     #"
+    echo -e "# ${PURPLE}YouTube channel${PLAIN}: https://www.youtube.com/@DreamLiteX     #"
+    echo "############################################################"
     echo ""
     echo -e " ${GREEN}1.${PLAIN} WARP IPv4 Endpoint IP preferred ${YELLOW}(Default)${PLAIN}"
     echo -e " ${GREEN}2.${PLAIN} WARP IPv6 Endpoint IP preferred"
