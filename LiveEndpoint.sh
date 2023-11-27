@@ -196,7 +196,7 @@ menu(){
     echo "##############################################################"
     echo -e "#               ${RED}WARP Endpoint IP Finder${PLAIN}                      #"
     echo -e "# ${GREEN}Author${PLAIN}: AshiwYT                                          #"
-    echo -e "# ${GREEN}GitHub${PLAIN}: https://github.com/AshiwYT                       #"
+    echo -e "# ${GREEN}GitHub${PLAIN}: https://github.com/DreamXlite                    #"
     echo -e "# ${GREEN}Telegram${PLAIN}: https://t.me/Ashiweshoonam                     #"
     echo -e "# ${GREEN}YouTube channel${PLAIN}: https://www.youtube.com/@DreamLiteX     #"
     echo "#############################################################"
